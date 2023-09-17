@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Start Setting Box-->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#FF9800"></li>
+            <li data-color="#8e44ad"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#26a599"></li>
+            <li data-color="#2cb731"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="reandom-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+
+        <button class="reset-options">
+          Reset Options
+        </button>
+      </div>
+    </div>
+    <!--End Setting Box-->
+
+    <!--Start Nav Bullets-->
+
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Time Line</div>
+      </div>
+
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+
+    <!--End Nav Bullets-->
+
+    <!--Start landing page-->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="headre-area">
+          <div class="logo">Shusan</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">TimeLine</a></li>
+              <li><a href="#" data-section=".contact">Contact Us</a></li>
+            </ul>
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="introduction-text">
+        <h1>Welcome To <span>My Website</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio error
+          veritatis animi beatae modi eveniet, possimus ratione sit earum eum
+          esse voluptate
+        </p>
+      </div>
+    </div>
+    <!--End landing page-->
+
+    <!--Start About Us Page-->
+
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            cumque, officia quos aperiam quod nisi quis ab aliquid. Cumque
+            quisquam modi numquam exercitationem ipsa explicabo nobis voluptate
+            voluptas corrupti consectetur?
+          </p>
+        </div>
+        <div class="images-box">
+          <img src="images/aboutUs.jpg" alt="About Us" />
+        </div>
+      </div>
+    </div>
+
+    <!--End About Us Page-->
+
+    <!--Our SKills-->
+
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JQuery</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--End Our Skills-->
+
+    <!--Start Gallery-->
+
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="images/Study1.jpg" alt="Image One" />
+          <img src="images/Study2.jpg" alt="Image Two" />
+          <img src="images/Study3.jpg" alt="Image Three" />
+          <img src="images/Study4.jpg" alt="Image Four" />
+          <img src="images/Study1.jpg" alt="Image Five" />
+          <img src="images/Study3.jpg" alt="Image Six" />
+          <img src="images/Study2.jpg" alt="Image Seven" />
+          <img src="images/Study4.jpg" alt="" />
+          <img src="images/Study2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!--End Gallery-->
+
+    <!--Start Time Line-->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2021</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Quads Games</h3>
+              <p>
+                This is a official website for QuadGames I did when I was a intern there.
+                A gaming website is a great medium to promote a video game, create an online space that unites gamers, or share industry news. 
+                Gaming website UI design is one of the key factors determining the user’s experience. 
+                And the latter should be nothing but fantastic if you want to have a successful site.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Mantime</h3>
+              <p>
+                This is the Final Year Project of my college. Every student are required to chose a topic on what they want to work on but 
+                I happen to copy the proposal from a random article I found in the Internet.
+                To be honest, I really had no idea of what I chose but when I did, 
+                I had a regret but as always I had my friends to back me up. 
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Data Science</h3>
+              <p>
+                As the volume and intricacy of available data continue to expand for companies, 
+                there arises a corresponding necessity for an effective and efficient process to extract the value of such data. 
+                The data analysis process typically involves several iterative phases, which we shall examine in detail.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Laravel</h3>
+              <p>
+                As the volume and intricacy of available data continue to expand for companies, 
+                there arises a corresponding necessity for an effective and efficient process to extract the value of such data. 
+                The data analysis process typically involves several iterative phases, which we shall examine in detail.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>React JS</h3>
+              <p>
+                The React.js framework is an open-source JavaScript framework and library developed by Facebook.
+                 It’s used for building interactive user interfaces and web applications quickly and 
+                 efficiently with significantly less code than you would with vanilla JavaScript.
+                 In React these components are individual pieces of a final interface, which, when assembled, 
+                form the application’s entire user interface.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--End Time Line-->
+
+    <!--Start  Contact Us-->
+
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="left">
+            <input
+              type="text"
+              name="username"
+              id=""
+              placeholder="Your Name"
+              autocomplete="off"
+            />
+
+            <input type="text" name="Phone" id="" placeholder="Your Phone" />
+
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Your Email"
+              autocomplete="off"
+            />
+
+            <input
+              type="text"
+              name="subject"
+              id=""
+              placeholder="Subject"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="right">
+            <textarea
+              name="message"
+              id=""
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--End  Contact Us-->
+
+    <!--Start Footer-->
+
+    <div class="footer">
+      <p>
+        &COPY; 2023 By Shusan Adhikari , Follow me in
+        <a href="">
+          <i class="fa fa-facebook-square" title="Facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-github-square" title="GitHub"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-linkedin-square" title="Linkedin"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram" title="instagram"></i>
+        </a>
+      </p>
+    </div>
+
+    <!--End Footer-->
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
